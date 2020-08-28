@@ -1,0 +1,7 @@
+- hosts: localhost
+  roles:
+          - ec2_host
+- hosts: ec2
+  user: ec2-user
+  roles:
+          - web 
